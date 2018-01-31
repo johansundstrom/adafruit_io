@@ -23,25 +23,25 @@ Grejen: Skicka data från webben till NodeMCU till Adafruit.IO med MQTT
 1. Skapa konto på https://io.adafruit.com och logga in
 2. Notera villkoren:
 
- a) 30 data points per minute
- b) 30 days of data storage
- c) 10 feeds
- d) 5 dashboards
+* 30 data points per minute
+* 30 days of data storage
+* 10 feeds
+* 5 dashboards
 
 3. Med exempelvis NodeMCU, anslut D5 --> LED --> 220R --> GND
 4. Med Arduino IDE anslut rätt board
 5. Installera följande Libraries: 
 
-  a) Adafruit IO
-  b) Adafruit MQTT Library
-  c) Kanske någon mer?
+  * Adafruit IO
+  * Adafruit MQTT Library
+  * Kanske någon mer?
   
 6. Ladda in exempelsketch: ```adafruitio_07_digital_out```
 7. Redigera ```config.h```
 8. Hämta följande värden från io.adafruit.com:
 
-  a) IO_USERNAME
-  b) IO_KEY
+  * AIO KEY - Username - IO_USERNAME
+  * AIO KEY - Active Key - IO_KEY
   
 9. Skriv in dessa och WiFi-parametrar i ```config.io```
 10. OBS - Notera följande på rad 27 i filen ```adafruitio_07_digital_out```
@@ -50,6 +50,6 @@ Grejen: Skicka data från webben till NodeMCU till Adafruit.IO med MQTT
   
   Detta betyder att topic är "digital"
   
-9. Provkompilera, rätta eventuella fel och ladda upp
+11. Provkompilera, rätta eventuella fel och ladda upp
 
 
