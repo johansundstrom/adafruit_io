@@ -16,7 +16,7 @@ Grejen: Skicka data från webben till NodeMCU till Adafruit.IO med MQTT
   * Case sensitive
   * kan innehålla <blanksteg>
   * vara UTF-8 enkodat
-
+* 
 
 ## Setup
 
@@ -29,20 +29,22 @@ Grejen: Skicka data från webben till NodeMCU till Adafruit.IO med MQTT
  d) 5 dashboards
 
 3. Med exempelvis NodeMCU, anslut D5 --> LED --> 220R --> GND
-3. Med Arduino IDE anslut rätt board
-4. Installera följande Libraries: 
+4. Med Arduino IDE anslut rätt board
+5. Installera följande Libraries: 
+
   a) Adafruit IO
   b) Adafruit MQTT Library
   c) Kanske någon mer?
   
-5. Ladda in exempelsketch: ```adafruitio_07_digital_out```
-6. Redigera ```config.h```
-7. Hämta följande värden från io.adafruit.com:
+6. Ladda in exempelsketch: ```adafruitio_07_digital_out```
+7. Redigera ```config.h```
+8. Hämta följande värden från io.adafruit.com:
+
   a) IO_USERNAME
   b) IO_KEY
   
-8. Skriv in dessa och WiFi-parametrar i ```config.io```
-9. OBS - Notera följande på rad 27 i filen ```adafruitio_07_digital_out```
+9. Skriv in dessa och WiFi-parametrar i ```config.io```
+10. OBS - Notera följande på rad 27 i filen ```adafruitio_07_digital_out```
   
   *AdafruitIO_Feed *digital = io.feed("digital");*
   
