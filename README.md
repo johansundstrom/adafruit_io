@@ -18,6 +18,8 @@ Grejen: Skicka data från webben till NodeMCU till Adafruit.IO med MQTT
   * vara UTF-8 enkodat
 
 
+## Setup
+
 1. Skapa konto på https://io.adafruit.com och logga in
 2. Notera villkoren:
 
