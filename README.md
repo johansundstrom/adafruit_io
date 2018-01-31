@@ -46,10 +46,16 @@ Grejen: Skicka data från webben till NodeMCU till Adafruit.IO med MQTT
 9. Skriv in dessa och WiFi-parametrar i ```config.io```
 10. OBS - Notera följande på rad 27 i filen ```adafruitio_07_digital_out```
   
-  *AdafruitIO_Feed *digital = io.feed("digital");*
+  ```AdafruitIO_Feed *digital = io.feed("digital");```
   
   Detta betyder att topic är "digital"
   
 11. Provkompilera, rätta eventuella fel och ladda upp
+12. Med io.adafruit.com klicka _Feeds_ och skapa ett nytt _Feed_ med namnet "digital"
+12. Med io.adafruit.com klicka _Dashboards_ och skapa nytt dashboard med exempelvis namnet LED5 och en beskrivning
+13. Skapa ett nytt _Block_ med en _Toggle_ och sätt Botton On Text till ```1``` respektive ```0```
+14. Funkar?
+15. Vad ger detta dig för nya idéer?
+
 
 
