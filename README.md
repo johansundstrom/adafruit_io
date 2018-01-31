@@ -23,10 +23,10 @@ Grejen: Skicka data från webben till NodeMCU till Adafruit.IO med MQTT
 1. Skapa konto på https://io.adafruit.com och logga in
 2. Notera villkoren:
 
- * 30 data points per minute
- * 30 days of data storage
- * 10 feeds
- * 5 dashboards
+  * 30 data points per minute
+  * 30 days of data storage
+  * 10 feeds
+  * 5 dashboards
 
 3. Med exempelvis NodeMCU, anslut D5 --> LED --> 220R --> GND
 3. Med Arduino IDE anslut rätt board
