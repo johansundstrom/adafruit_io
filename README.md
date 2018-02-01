@@ -34,6 +34,7 @@ Grejen: Skicka data från webben till NodeMCU till Adafruit.IO med MQTT
 
   * Adafruit IO
   * Adafruit MQTT Library
+  * Arduino HTTP Client
   * Kanske någon mer?
   
 6. Ladda in exempelsketch: ```adafruitio_07_digital_out```
